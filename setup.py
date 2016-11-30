@@ -36,6 +36,7 @@ if py_version < '2.6':
 _PROTORPC_VERSION = '0.11.1'
 packages = [
     'protorpc',
+    'protorpc.wsgi',
 ]
 
 setup(
